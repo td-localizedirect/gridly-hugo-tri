@@ -1,0 +1,28 @@
+{
+    "apiKey": "{YOUR_API_KEY}",
+    "grids": {
+        "i18n": {
+            "view": "{VIEW_ID}",
+            "file": "i18n/en.yaml",
+            "columns": {
+                "stringID": "column1",
+                "value": "column2"
+            }
+        },
+        "posts": {
+            "view": "{VIEW_ID}",
+            "folder": "content",
+            "columns": {
+                "postID": "column1",
+                "coverImage": "column2",
+                "title": "column3",
+                "description": "column4",
+                "author": "column5",
+                "content": "column7",
+                "tags": "column6",
+                "isTop": "column8",
+                "date": "column9"
+            }
+        }
+    }
+}

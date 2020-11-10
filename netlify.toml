@@ -1,0 +1,19 @@
+[context.production.environment]
+  HUGO_VERSION = "0.65.3"
+
+[build]
+  publish = "public/"
+  command = "npm run build"
+
+[build.processing]
+  skip_processing = false
+[build.processing.css]
+  bundle = true
+  minify = true
+[build.processing.js]
+  bundle = true
+  minify = true
+[build.processing.html]
+  pretty_urls = true
+[build.processing.images]
+  compress = true

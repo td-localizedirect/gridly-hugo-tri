@@ -1,0 +1,151 @@
+
+.title {
+    font-family: $title-family;
+}
+
+.content-img-svg {
+    font-weight: 400;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+.is-clickable {
+    opacity: 0.8;
+    cursor: pointer;
+
+    &.active,
+    &:hover {
+        opacity: 1.0;
+    }
+
+}
+
+.link {
+    color: #5B47B2;
+    font-weight: $button-font-weight;
+}
+
+figure {
+    &.is-200x200 {
+        border-radius: 100px;
+        overflow: hidden;
+        left: 50%;
+        margin-left: -100px;
+    }
+
+    &.is-150x150 {
+        border-radius: 75px;
+        overflow: hidden;
+        left: 50%;
+        margin-left: -75px;
+    }
+
+    &.is-96x96 {
+        border-radius: 48px;
+        overflow: hidden;
+    }
+}
+
+.image {
+    &.is-150x150 {
+        height: 150px;
+        width: 150px;
+    }
+
+    &.is-200x200 {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+/************** helper **************/
+
+.white {
+    color: #fff !important;
+}
+
+.has-text-centered-mobile {
+    @include mobile {
+        text-align: center;
+    }
+}
+
+.is-content-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.is-content-centered-mobile {
+    @include mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.is-content-centered-tablet {
+    @include tablet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.is-content-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.is-content-left-tablet {
+    @include tablet {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+.is-content-left-desktop {
+    @include desktop {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+.is-content-right-desktop {
+    @include desktop {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+
+.is-content-right {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.is-content-bottom {
+    display: flex;
+    align-items: bottom;
+}
+
+.is-content-vertical-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.is-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.is-full-height {
+    height: 100%;
+}
