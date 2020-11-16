@@ -1,8 +1,8 @@
 {
-    "apiKey": "QUFBQUFBQUFBQWc9ISYjfjo7JycrQUFBQmRVK2FVOUk9",
+    "apiKey": "QUFBQUFBQUFBSXM9ISYjfjo7JycrQUFBQmRVK2NnNGs9",
     "grids": {
         "i18n": {
-            "view": "GTQC33IiHK",
+            "view": "coMwDmaQAt",
             "file": "i18n/en.yaml",
             "columns": {
                 "stringID": "column1",
@@ -10,7 +10,7 @@
             }
         },
         "posts": {
-            "view": "mUguRutLSm",
+            "view": "pwkcsgZ48N",
             "folder": "content",
             "columns": {
                 "postID": "column1",
